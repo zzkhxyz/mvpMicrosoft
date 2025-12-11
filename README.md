@@ -22,10 +22,10 @@ The goal is to provide a **simple, interactive tool** for students and educators
 
 ## 🛠 Technologies Used
 
-- **Frontend**: React, Vite  
-- **Backend / ML**: Python, scikit-learn, pandas, numpy  
-- **Visualization**: matplotlib / seaborn (optional)  
-- **Version Control**: Git & GitHub
+- Frontend: React, Vite  
+- Backend / ML: Python, scikit-learn, pandas, numpy  
+- Visualization: matplotlib / seaborn (optional)  
+- Version Control: Git & GitHub
 
 ---
 
@@ -52,26 +52,26 @@ crmformvp/
 
 1. Install dependencies:
 
-```bash
+    bash
 npm install
 
     Run development server:
 
 npm run dev
 
-    Open in browser:
+Open in browser:
 
 http://localhost:5173/
 
 Backend / ML (Python)
 
-    Create a virtual environment and activate it:
+Create a virtual environment and activate it:
 
 python -m venv venv
 venv\Scripts\activate   # Windows
 # source venv/bin/activate  # Mac/Linux
 
-    Install dependencies:
+    install dependencies:
 
 pip install -r requirements.txt
 
@@ -92,29 +92,29 @@ python model.py
 ⚠️ Limitations & Future Improvements
 Current Limitations
 
-    Small Dataset: The ML model is trained on a very limited dataset, which can reduce prediction accuracy.
+    Small dataset reduces model accuracy.
 
-    Simplified ML Model: Uses a lightweight model; advanced techniques like neural networks are not implemented.
+    Lightweight ML model; no neural networks.
 
-    No Database Integration: All data runs locally; historical data cannot be stored or analyzed.
+    No database — data is not stored.
 
-    Frontend-Backend Separation: The Python ML logic is separate from the React frontend; integration is basic.
+    Python backend and React frontend are loosely integrated.
 
-    No User Authentication: Anyone can input data; there is no security or user management.
+    No user authentication or profiles.
 
 Future Improvements
 
-    Larger Dataset: Incorporate more student data to improve model accuracy and reliability.
+    Expand dataset for better predictions.
 
-    Advanced ML Models: Explore neural networks or ensemble methods for better predictions.
+    Implement advanced ML models (neural networks, ensemble methods).
 
-    Database Integration: Store user inputs and predictions for historical analysis.
+    Add database integration to store historical data.
 
-    Full Integration: Connect Python backend API with React frontend for seamless interaction.
+    Fully integrate backend and frontend via API.
 
-    UI/UX Enhancements: Add charts, graphs, and responsive design for better visualization.
+    Improve UI/UX with charts, graphs, and responsive design.
 
-    Authentication & User Profiles: Allow users to save their data and track progress over time.
+    Add authentication and user profiles.
 
 🤝 Contribution
 
@@ -124,4 +124,4 @@ This is an MVP project. Contributions are welcome to improve:
 
     ML model accuracy
 
-    Charts, graphs, and visual analytics
+    Visualization and analytics
