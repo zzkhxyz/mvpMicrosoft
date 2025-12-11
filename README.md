@@ -1,6 +1,5 @@
 # CRM & Student Score Prediction MVP
 
-
 ##  Project Overview
 
 This project is a **Minimum Viable Product (MVP)** developed for the **Microsoft Imagine Cup 2026**.  
@@ -21,106 +20,91 @@ The goal is to provide a **simple, interactive tool** for students and educators
 
 ##  Technologies Used
 
-- Frontend: React, Vite  
-- Backend / ML: Python, scikit-learn, pandas, numpy  
-- Visualization: matplotlib / seaborn (optional)  
-- Version Control: Git & GitHub
+- **Frontend**: React, Vite  
+- **Backend / ML**: Python, scikit-learn, pandas, numpy  
+- **Visualization**: matplotlib / seaborn (optional)  
+- **Version Control**: Git & GitHub
 
 ---
 
 ## 📂 Project Structure
 
+```plaintext
 crmformvp/
 │
-├─ src/ # React frontend components
-│ ├─ App.jsx
-│ └─ main.jsx
+├─ src/                 # React frontend components
+│   ├─ App.jsx
+│   └─ main.jsx
 │
-├─ index.html # Main HTML page
-├─ package.json # Frontend dependencies & scripts
-├─ requirements.txt # Python dependencies
-├─ model.py # ML model logic
-└─ README.md # Project documentation
+├─ index.html           # Main HTML page
+├─ package.json         # Frontend dependencies & scripts
+├─ requirements.txt     # Python dependencies
+├─ model.py             # ML model logic
+└─ README.md            # Project documentation
+```
+## Getting Started
+Frontend (React)
+
+Install dependencies:
+
+```npm install
 
 
----
-
-##  Getting Started
-
-### Frontend (React)
-
-1. Install dependencies:
-
-    bash
-npm install
-
-    Run development server:
-
+Run development server:
+```
+```
 npm run dev
+```
 
 Open in browser:
-
+```
 http://localhost:5173/
-
-Backend / ML (Python)
+```
+## Backend / ML (Python)
 
 Create a virtual environment and activate it:
-
+```
 python -m venv venv
 venv\Scripts\activate   # Windows
 # source venv/bin/activate  # Mac/Linux
+```
 
-install dependencies:
-
+Install dependencies:
+```
 pip install -r requirements.txt
+```
 
 Run the Python script:
-
+```
 python model.py
-
- How to Use
+```
+ ## How to Use
 
 Open the frontend in your browser.
-
 Enter Hours of Study, Practice, Teamwork, Mid-term Score, etc.
-
 Click Predict to see the estimated final score.
-
 Use the insights to improve study strategies.
 
- Limitations & Future Improvements
+ ## Limitations & Future Improvements
 Current Limitations
-
 Small dataset reduces model accuracy.
-
 Lightweight ML model; no neural networks.
-
 No database — data is not stored.
-
 Python backend and React frontend are loosely integrated.
-
 No user authentication or profiles.
 
-Future Improvements
+## Future Improvements
 
 Expand dataset for better predictions.
-
 Implement advanced ML models (neural networks, ensemble methods).
-
 Add database integration to store historical data.
-
 Fully integrate backend and frontend via API.
-
 Improve UI/UX with charts, graphs, and responsive design.
-
 Add authentication and user profiles.
 
- Contribution
+ ## Contribution
 
 This is an MVP project. Contributions are welcome to improve:
-
 UI/UX of the frontend
-
 ML model accuracy
-
 Visualization and analytics
