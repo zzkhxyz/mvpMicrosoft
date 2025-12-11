@@ -1,7 +1,8 @@
 # CRM & Student Score Prediction MVP
 
+![Project Banner](https://via.placeholder.com/800x200.png?text=CRM+MVP)
 
-##  Project Overview
+## 🚀 Project Overview
 
 This project is a **Minimum Viable Product (MVP)** developed for the **Microsoft Imagine Cup 2026**.  
 It combines a **React frontend** and a **Python ML model** to predict students' final exam scores based on study habits and performance factors.
@@ -19,7 +20,7 @@ The goal is to provide a **simple, interactive tool** for students and educators
 
 ---
 
-##  Technologies Used
+## 🛠 Technologies Used
 
 - **Frontend**: React, Vite  
 - **Backend / ML**: Python, scikit-learn, pandas, numpy  
@@ -28,7 +29,7 @@ The goal is to provide a **simple, interactive tool** for students and educators
 
 ---
 
-##  Project Structure
+## 📂 Project Structure
 
 crmformvp/
 │
@@ -45,7 +46,7 @@ crmformvp/
 
 ---
 
-##  Getting Started
+## ⚡ Getting Started
 
 ### Frontend (React)
 
@@ -78,7 +79,7 @@ pip install -r requirements.txt
 
 python model.py
 
- How to Use
+🎮 How to Use
 
     Open the frontend in your browser.
 
@@ -88,24 +89,34 @@ python model.py
 
     Use the insights to improve study strategies.
 
-## ⚠️ Limitations & Future Improvements
+⚠️ Limitations & Future Improvements
+Current Limitations
 
-### Current Limitations
-- **Small Dataset**: The ML model is trained on a very limited dataset, which can reduce prediction accuracy.  
-- **Simplified ML Model**: Uses a lightweight model; advanced techniques like neural networks are not implemented.  
-- **No Database Integration**: All data runs locally; historical data cannot be stored or analyzed.  
-- **Frontend-Backend Separation**: The Python ML logic is separate from the React frontend; integration is basic.  
-- **No User Authentication**: Anyone can input data; there is no security or user management.
+    Small Dataset: The ML model is trained on a very limited dataset, which can reduce prediction accuracy.
 
-### Future Improvements
-- **Larger Dataset**: Incorporate more student data to improve model accuracy and reliability.  
-- **Advanced ML Models**: Explore neural networks or ensemble methods for better predictions.  
-- **Database Integration**: Store user inputs and predictions for historical analysis.  
-- **Full Integration**: Connect Python backend API with React frontend for seamless interaction.  
-- **UI/UX Enhancements**: Add charts, graphs, and responsive design for better visualization.  
-- **Authentication & User Profiles**: Allow users to save their data and track progress over time.
+    Simplified ML Model: Uses a lightweight model; advanced techniques like neural networks are not implemented.
 
- Contribution
+    No Database Integration: All data runs locally; historical data cannot be stored or analyzed.
+
+    Frontend-Backend Separation: The Python ML logic is separate from the React frontend; integration is basic.
+
+    No User Authentication: Anyone can input data; there is no security or user management.
+
+Future Improvements
+
+    Larger Dataset: Incorporate more student data to improve model accuracy and reliability.
+
+    Advanced ML Models: Explore neural networks or ensemble methods for better predictions.
+
+    Database Integration: Store user inputs and predictions for historical analysis.
+
+    Full Integration: Connect Python backend API with React frontend for seamless interaction.
+
+    UI/UX Enhancements: Add charts, graphs, and responsive design for better visualization.
+
+    Authentication & User Profiles: Allow users to save their data and track progress over time.
+
+🤝 Contribution
 
 This is an MVP project. Contributions are welcome to improve:
 
