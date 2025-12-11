@@ -1,4 +1,4 @@
-# CRM & Student Score Prediction MVP
+# Student Score Prediction MVP
 
 ##  Project Overview
 
