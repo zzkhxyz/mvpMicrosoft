@@ -1,8 +1,7 @@
 # CRM & Student Score Prediction MVP
 
-![Project Banner](https://via.placeholder.com/800x200.png?text=CRM+MVP)
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project is a **Minimum Viable Product (MVP)** developed for the **Microsoft Imagine Cup 2026**.  
 It combines a **React frontend** and a **Python ML model** to predict students' final exam scores based on study habits and performance factors.
@@ -11,7 +10,7 @@ The goal is to provide a **simple, interactive tool** for students and educators
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Student Score Prediction**: Lightweight ML model predicts final exam scores.  
 - **Interactive Frontend**: Users input study hours, practice, teamwork, and mid-term scores to get predictions instantly.  
@@ -20,7 +19,7 @@ The goal is to provide a **simple, interactive tool** for students and educators
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Frontend: React, Vite  
 - Backend / ML: Python, scikit-learn, pandas, numpy  
@@ -46,7 +45,7 @@ crmformvp/
 
 ---
 
-## ⚡ Getting Started
+##  Getting Started
 
 ### Frontend (React)
 
@@ -71,57 +70,57 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 # source venv/bin/activate  # Mac/Linux
 
-    install dependencies:
+install dependencies:
 
 pip install -r requirements.txt
 
-    Run the Python script:
+Run the Python script:
 
 python model.py
 
-🎮 How to Use
+ How to Use
 
-    Open the frontend in your browser.
+Open the frontend in your browser.
 
-    Enter Hours of Study, Practice, Teamwork, Mid-term Score, etc.
+Enter Hours of Study, Practice, Teamwork, Mid-term Score, etc.
 
-    Click Predict to see the estimated final score.
+Click Predict to see the estimated final score.
 
-    Use the insights to improve study strategies.
+Use the insights to improve study strategies.
 
-⚠️ Limitations & Future Improvements
+ Limitations & Future Improvements
 Current Limitations
 
-    Small dataset reduces model accuracy.
+Small dataset reduces model accuracy.
 
-    Lightweight ML model; no neural networks.
+Lightweight ML model; no neural networks.
 
-    No database — data is not stored.
+No database — data is not stored.
 
-    Python backend and React frontend are loosely integrated.
+Python backend and React frontend are loosely integrated.
 
-    No user authentication or profiles.
+No user authentication or profiles.
 
 Future Improvements
 
-    Expand dataset for better predictions.
+Expand dataset for better predictions.
 
-    Implement advanced ML models (neural networks, ensemble methods).
+Implement advanced ML models (neural networks, ensemble methods).
 
-    Add database integration to store historical data.
+Add database integration to store historical data.
 
-    Fully integrate backend and frontend via API.
+Fully integrate backend and frontend via API.
 
-    Improve UI/UX with charts, graphs, and responsive design.
+Improve UI/UX with charts, graphs, and responsive design.
 
-    Add authentication and user profiles.
+Add authentication and user profiles.
 
-🤝 Contribution
+ Contribution
 
 This is an MVP project. Contributions are welcome to improve:
 
-    UI/UX of the frontend
+UI/UX of the frontend
 
-    ML model accuracy
+ML model accuracy
 
-    Visualization and analytics
+Visualization and analytics
